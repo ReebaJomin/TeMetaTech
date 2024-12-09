@@ -1,0 +1,27 @@
+[
+    {
+        "question": "What is the capital of France?",
+        "options": ["Berlin", "Madrid", "Paris", "Rome"],
+        "answer": 2
+    },
+    {
+        "question": "Which language is used for web development?",
+        "options": ["Python", "JavaScript", "C++", "Java"],
+        "answer": 1
+    },
+    {
+        "question": "What is the largest planet in our solar system?",
+        "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+        "answer": 2
+    },
+    {
+        "question": "Who wrote 'To Kill a Mockingbird'?",
+        "options": ["Harper Lee", "Jane Austen", "J.K. Rowling", "Mark Twain"],
+        "answer": 0
+    },
+    {
+        "question": "What is the speed of light?",
+        "options": ["300,000 km/s", "150,000 km/s", "200,000 km/s", "250,000 km/s"],
+        "answer": 0
+    }
+]

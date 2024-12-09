@@ -1,0 +1,69 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+#quiz-container {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+
+#question-container {
+    margin-bottom: 20px;
+}
+
+.option {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: #d0d0d0;
+}
+
+#feedback {
+    margin: 10px 0;
+}
+
+#timer {
+    margin: 10px 0;
+}
+
+#next-button {
+    display: none;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#next-button:hover {
+    background-color: #0056b3;
+}
+
+#score-container {
+    display: none; /* This should be changed to block when showing the score */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
